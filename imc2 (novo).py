@@ -29,7 +29,6 @@ sexo = input("Digite o seu sexo (m ou f): ")
 imc = round(peso / (altura ** 2), 2)
 print("Seu IMC é: ", imc)
 
-
 if imc < categorias[sexo][idade][0]: 
     print("Baixo Peso")
 
@@ -37,4 +36,4 @@ elif imc < categorias[sexo][idade][1]:
     print("Adequado")
 
 else:
-    print("Abaixo do peso")
+    print("Sobrepeso")
